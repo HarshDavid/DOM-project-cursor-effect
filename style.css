@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+
+}
+
+#cursor{
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    border-radius: 50%;
+    transition: all linear 0.1s;
+    mix-blend-mode: difference;
+    position:absolute;
+}
+h1{
+    color:beige;
+   font-size: 8vw;
+   white-space: nowrap;
+   padding: 20vw;
+}
